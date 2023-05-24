@@ -3,9 +3,8 @@ Génère une skyline aléatoire avec des bâtiments, des paysages ...
 """
 
 import turtle
-from random import randint, choice
-from math import cos, atan, sqrt, pi
-
+from math import atan, cos, pi, sqrt
+from random import choice, randint
 
 # ******************************************************************************
 # *                               Utilitaire                                   *
@@ -233,7 +232,7 @@ def gratte_ciel():
 
     def dessiner_murs(cote, hauteur):
         reste = hauteur
-        for i in range(randint(1, 3)):
+        for _ in range(randint(1, 3)):
             avance = randint(0, reste)
             turtle.forward(avance)
             reste -= avance
