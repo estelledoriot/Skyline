@@ -5,3 +5,5 @@ pyproject.toml
 .DS_Store
 .config
 venv
+driver.py
+__pycache__
