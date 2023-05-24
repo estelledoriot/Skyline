@@ -4,7 +4,7 @@ Génère une skyline aléatoire avec des bâtiments, des paysages ...
 
 import turtle
 from random import randint, choice
-from math import cos, sin, atan, sqrt, pi
+from math import cos, atan, sqrt, pi
 
 
 # ******************************************************************************
