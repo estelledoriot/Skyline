@@ -1,4 +1,5 @@
-"""Animation Skyline
+"""Estelle Doriot
+Animation Skyline
 Génère une skyline aléatoire avec des bâtiments, des paysages ...
 """
 
